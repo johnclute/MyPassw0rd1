@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD935FC81F59C09500638135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD935FC71F59C09500638135 /* AppDelegate.swift */; };
+		FD935FCA1F59C09500638135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD935FC91F59C09500638135 /* ViewController.swift */; };
+		FD935FCD1F59C09500638135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD935FCB1F59C09500638135 /* Main.storyboard */; };
+		FD935FD01F59C09500638135 /* MakePassword.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD935FCE1F59C09500638135 /* MakePassword.xcdatamodeld */; };
+		FD935FD21F59C09500638135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD935FD11F59C09500638135 /* Assets.xcassets */; };
+		FD935FD51F59C09500638135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD935FD31F59C09500638135 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD935FC41F59C09500638135 /* MakePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD935FC71F59C09500638135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD935FC91F59C09500638135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD935FCC1F59C09500638135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD935FCF1F59C09500638135 /* MakePassword.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MakePassword.xcdatamodel; sourceTree = "<group>"; };
+		FD935FD11F59C09500638135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD935FD41F59C09500638135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD935FD61F59C09500638135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD935FC11F59C09500638135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD935FBB1F59C09500638135 = {
+			isa = PBXGroup;
+			children = (
+				FD935FC61F59C09500638135 /* MakePassword */,
+				FD935FC51F59C09500638135 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD935FC51F59C09500638135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD935FC41F59C09500638135 /* MakePassword.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD935FC61F59C09500638135 /* MakePassword */ = {
+			isa = PBXGroup;
+			children = (
+				FD935FC71F59C09500638135 /* AppDelegate.swift */,
+				FD935FC91F59C09500638135 /* ViewController.swift */,
+				FD935FCB1F59C09500638135 /* Main.storyboard */,
+				FD935FD11F59C09500638135 /* Assets.xcassets */,
+				FD935FD31F59C09500638135 /* LaunchScreen.storyboard */,
+				FD935FD61F59C09500638135 /* Info.plist */,
+				FD935FCE1F59C09500638135 /* MakePassword.xcdatamodeld */,
+			);
+			path = MakePassword;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD935FC31F59C09500638135 /* MakePassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD935FD91F59C09500638135 /* Build configuration list for PBXNativeTarget "MakePassword" */;
+			buildPhases = (
+				FD935FC01F59C09500638135 /* Sources */,
+				FD935FC11F59C09500638135 /* Frameworks */,
+				FD935FC21F59C09500638135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakePassword;
+			productName = MakePassword;
+			productReference = FD935FC41F59C09500638135 /* MakePassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD935FBC1F59C09500638135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = creativeApps;
+				TargetAttributes = {
+					FD935FC31F59C09500638135 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD935FBF1F59C09500638135 /* Build configuration list for PBXProject "MakePassword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD935FBB1F59C09500638135;
+			productRefGroup = FD935FC51F59C09500638135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD935FC31F59C09500638135 /* MakePassword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD935FC21F59C09500638135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD935FD51F59C09500638135 /* LaunchScreen.storyboard in Resources */,
+				FD935FD21F59C09500638135 /* Assets.xcassets in Resources */,
+				FD935FCD1F59C09500638135 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD935FC01F59C09500638135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD935FCA1F59C09500638135 /* ViewController.swift in Sources */,
+				FD935FD01F59C09500638135 /* MakePassword.xcdatamodeld in Sources */,
+				FD935FC81F59C09500638135 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD935FCB1F59C09500638135 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD935FCC1F59C09500638135 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD935FD31F59C09500638135 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD935FD41F59C09500638135 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD935FD71F59C09500638135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD935FD81F59C09500638135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD935FDA1F59C09500638135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MakePassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhatIfApps.MakePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD935FDB1F59C09500638135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MakePassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhatIfApps.MakePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD935FBF1F59C09500638135 /* Build configuration list for PBXProject "MakePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD935FD71F59C09500638135 /* Debug */,
+				FD935FD81F59C09500638135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD935FD91F59C09500638135 /* Build configuration list for PBXNativeTarget "MakePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD935FDA1F59C09500638135 /* Debug */,
+				FD935FDB1F59C09500638135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD935FCE1F59C09500638135 /* MakePassword.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD935FCF1F59C09500638135 /* MakePassword.xcdatamodel */,
+			);
+			currentVersion = FD935FCF1F59C09500638135 /* MakePassword.xcdatamodel */;
+			path = MakePassword.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD935FBC1F59C09500638135 /* Project object */;
+}
